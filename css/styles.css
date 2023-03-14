@@ -699,6 +699,7 @@ p {
   position: fixed;
   top: 0;
   left: 0;
+  transition: opacity 0.250ms, visibility 0.250ms linear ;
 }
 .modal {
   width: 408px;
