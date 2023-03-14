@@ -714,12 +714,13 @@ p {
 }
 .modal-close-svg {
   width: 8px;
-  height: 8px;
+  height: 8px; 
+  fill: currentColor;
 }
 .modal-close {
   width: 24px;
   height: 24px;
-  background: #e7e9fc;
+  /* background-color: #e7e9fc; */
   border: 1px solid rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: center;
@@ -727,6 +728,14 @@ p {
   border-radius: 50%;
   margin: 24px;
   margin-left: auto;
+  color: #000;
+}
+.modal-close:hover,
+.modal-close:focus {
+  background: #404bbf;
+  border-radius: 50%;
+  border: 1px solid var(--dop-color);
+  color: #E7E9FC
 }
 .is-hidden {
   opacity: 0;
