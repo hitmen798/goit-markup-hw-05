@@ -679,6 +679,7 @@ p {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
   /* background-color: var(--logo-color); */
   transition-property: background-color;
   transition-duration: 250ms;
@@ -699,7 +700,7 @@ p {
   position: fixed;
   top: 0;
   left: 0;
-  transition: opacity 0.250ms, visibility 0.250ms linear ;
+  transition: opacity 0.25s linear, visibility 0.25s linear;
 }
 .modal {
   width: 408px;
